@@ -8,5 +8,8 @@ namespace De.ChatService.Contracts
     {
         [OperationContract]
         void Ping();
+
+        [OperationContract]
+        string Echo(string message);
     }
 }

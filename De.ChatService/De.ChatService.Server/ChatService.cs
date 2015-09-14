@@ -7,5 +7,10 @@ namespace De.ChatService.Server
         public void Ping()
         {
         }
+
+        public string Echo(string message)
+        {
+            return message;
+        }
     }
 }
