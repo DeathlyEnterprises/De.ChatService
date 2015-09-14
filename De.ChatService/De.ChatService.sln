@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.ChatService.Contracts", "De.ChatService.Contracts\De.ChatService.Contracts.shproj", "{48C6FDE7-B754-41E6-A8BF-E1F9FA58837B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "De.ChatService.Tests", "De.ChatService.Tests\De.ChatService.Tests.csproj", "{F820C879-3CA7-4883-91F8-87506FDD9A79}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.ChatService.Server", "De.ChatService.Server\De.ChatService.Server.shproj", "{851B7C11-B2F5-4849-A8ED-21A0E770957E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.ChatService.Client", "De.ChatService.Client\De.ChatService.Client.shproj", "{1E54347F-4529-4956-A01D-4631B2C023C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{4D563601-E6D9-43CC-A47B-F2EF78F4E8BC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Server", "..\..\De.Server\De.Server\De.Server\De.Server.shproj", "{2E3774C2-ACC6-4558-BFE3-E5A011B5BAD0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Client", "..\..\De.Server\De.Server\De.Client\De.Client.shproj", "{5C4EEA78-B099-499B-957A-A0487919AA4E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		De.ChatService.Server\De.ChatService.Server.projitems*{851b7c11-b2f5-4849-a8ed-21a0e770957e}*SharedItemsImports = 13
+		De.ChatService.Client\De.ChatService.Client.projitems*{1e54347f-4529-4956-a01d-4631b2c023c2}*SharedItemsImports = 13
+		De.ChatService.Contracts\De.ChatService.Contracts.projitems*{48c6fde7-b754-41e6-a8bf-e1f9fa58837b}*SharedItemsImports = 13
+		De.ChatService.Server\De.ChatService.Server.projitems*{f820c879-3ca7-4883-91f8-87506fdd9a79}*SharedItemsImports = 4
+		..\..\De.Server\De.Server\De.Server\De.Server.projitems*{f820c879-3ca7-4883-91f8-87506fdd9a79}*SharedItemsImports = 4
+		De.ChatService.Contracts\De.ChatService.Contracts.projitems*{f820c879-3ca7-4883-91f8-87506fdd9a79}*SharedItemsImports = 4
+		..\..\De.Server\De.Server\De.Client\De.Client.projitems*{f820c879-3ca7-4883-91f8-87506fdd9a79}*SharedItemsImports = 4
+		De.ChatService.Client\De.ChatService.Client.projitems*{f820c879-3ca7-4883-91f8-87506fdd9a79}*SharedItemsImports = 4
+		..\..\De.Server\De.Server\De.Client\De.Client.projitems*{5c4eea78-b099-499b-957a-a0487919aa4e}*SharedItemsImports = 13
+		..\..\De.Server\De.Server\De.Server\De.Server.projitems*{2e3774c2-acc6-4558-bfe3-e5a011b5bad0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F820C879-3CA7-4883-91F8-87506FDD9A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F820C879-3CA7-4883-91F8-87506FDD9A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F820C879-3CA7-4883-91F8-87506FDD9A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F820C879-3CA7-4883-91F8-87506FDD9A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E3774C2-ACC6-4558-BFE3-E5A011B5BAD0} = {4D563601-E6D9-43CC-A47B-F2EF78F4E8BC}
+		{5C4EEA78-B099-499B-957A-A0487919AA4E} = {4D563601-E6D9-43CC-A47B-F2EF78F4E8BC}
+	EndGlobalSection
+EndGlobal
